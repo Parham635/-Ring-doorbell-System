@@ -24,5 +24,5 @@ void unlockDoor() {
     digitalWrite(STEP_PIN, LOW);
     delayMicroseconds(500);
   }
-  delay(1000);
+  delay(5000);
 }
