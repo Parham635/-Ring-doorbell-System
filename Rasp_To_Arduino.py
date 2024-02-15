@@ -8,7 +8,7 @@ def send_signal():
     ser.write(b'O')
 
 try:
-    arduino_script = "path/to/your/arduino_script.ino"
+    arduino_script = "Stepper_Motor.ino"
     arduino_process = subprocess.Popen(["arduino", "--upload", arduino_script])
 
     time.sleep(10)
