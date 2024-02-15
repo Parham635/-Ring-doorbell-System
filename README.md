@@ -16,4 +16,3 @@ This project combines facial detection using OpenCV with Arduino-based door lock
 
    ```bash
    pip install opencv-python
-```
